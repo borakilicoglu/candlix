@@ -1,0 +1,81 @@
+import { Candle } from "@/app/components/Candle";
+import { PatternWrapper } from "@/app/components/PatternWrapper";
+
+export default function Star({ title }: { title?: string }) {
+  return (
+    <PatternWrapper title={title}>
+      <Candle
+        color="green"
+        wickTop={26}
+        bodyWidth={10}
+        bodyHeight={2}
+        wickBottom={26}
+        offsetX={0}
+        offsetY={0}
+      />
+      <Candle
+        color="green"
+        wickTop={3}
+        bodyWidth={10}
+        bodyHeight={2}
+        wickBottom={5}
+        offsetX={0}
+        offsetY={-26}
+      />
+      <Candle
+        color="green"
+        wickTop={26}
+        bodyWidth={10}
+        bodyHeight={2}
+        wickBottom={26}
+        offsetX={0}
+        offsetY={0}
+      />
+      <Candle
+        color="red"
+        wickTop={3}
+        bodyWidth={10}
+        bodyHeight={2}
+        wickBottom={5}
+        offsetX={0}
+        offsetY={-26}
+      />
+      <Candle
+        color="red"
+        wickTop={26}
+        bodyWidth={10}
+        bodyHeight={2}
+        wickBottom={26}
+        offsetX={0}
+        offsetY={0}
+      />
+      <Candle
+        color="green"
+        wickTop={3}
+        bodyWidth={10}
+        bodyHeight={2}
+        wickBottom={5}
+        offsetX={0}
+        offsetY={-26}
+      />
+      <Candle
+        color="red"
+        wickTop={26}
+        bodyWidth={10}
+        bodyHeight={2}
+        wickBottom={26}
+        offsetX={0}
+        offsetY={0}
+      />
+      <Candle
+        color="red"
+        wickTop={3}
+        bodyWidth={10}
+        bodyHeight={2}
+        wickBottom={5}
+        offsetX={0}
+        offsetY={-26}
+      />
+    </PatternWrapper>
+  );
+}
