@@ -1,4 +1,4 @@
-import { Pattern } from "../data/patterns";
+import { Pattern } from "@/app/data/patterns";
 
 import { motion } from "motion/react";
 
