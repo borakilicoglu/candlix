@@ -32,7 +32,7 @@ export default function CardHeader({
           />
         </svg>
 
-        <span>{selectedPattern?.name} Formation</span>
+        <span>{selectedPattern?.name} Pattern</span>
       </h5>
     </div>
   );
