@@ -2,6 +2,7 @@
   "name": "candlix",
   "version": "0.1.0",
   "private": true,
+  "author:": "Bora Kilicoglu",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
