@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Interactive Candlestick Patterns Cheat Sheat",
+  title: "Interactive Candlestick Patterns Cheat Sheet",
   description:
     "An interactive cheat sheet for learning candlestick patterns in trading.",
 };
