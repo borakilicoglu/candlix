@@ -1,44 +1,44 @@
 import { Candle } from "@/app/components/Candle";
-import { PatternWrapper } from "@/app/components/PatternWrapper";
+import { PatternWrapper } from "@/app/components/patterns/PatternWrapper";
 
 export default function DarkCloudCover({ title }: { title?: string }) {
   return (
     <PatternWrapper title={title}>
       <Candle
-        color="red"
-        bodyWidth={10}
-        bodyHeight={30}
-        offsetX={0}
-        offsetY={-10}
-      />
-      <Candle
-        color="red"
-        bodyWidth={10}
-        bodyHeight={30}
-        offsetX={0}
-        offsetY={5}
-      />
-      <Candle
         color="green"
-        wickTop={35}
-        bodyHeight={14}
-        offsetX={0}
-        offsetY={25}
-        stars={[{ position: "top-left" }, { position: "bottom-right" }]}
-      />
-      <Candle
-        color="green"
-        bodyWidth={10}
-        bodyHeight={40}
+        wickTop={15}
+        bodyWidth={2}
+        bodyHeight={5}
+        wickBottom={20}
         offsetX={0}
         offsetY={15}
       />
       <Candle
         color="green"
-        bodyWidth={10}
-        bodyHeight={40}
+        wickTop={8}
+        bodyHeight={35}
+        wickBottom={8}
         offsetX={0}
-        offsetY={0}
+        offsetY={-5}
+        stars={[{ position: "top-left" }]}
+      />
+      <Candle
+        color="red"
+        wickTop={8}
+        bodyHeight={35}
+        wickBottom={8}
+        offsetX={0}
+        offsetY={-10}
+        stars={[{ position: "bottom-right" }]}
+      />
+      <Candle
+        color="red"
+        wickTop={15}
+        bodyWidth={2}
+        bodyHeight={5}
+        wickBottom={20}
+        offsetX={0}
+        offsetY={15}
       />
     </PatternWrapper>
   );

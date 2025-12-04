@@ -204,8 +204,6 @@ export default function Home() {
                                         />
                                       );
                                     }
-
-                                    // NORMAL GRID (fallback)
                                     return (
                                       <NormalGrid
                                         block={block}

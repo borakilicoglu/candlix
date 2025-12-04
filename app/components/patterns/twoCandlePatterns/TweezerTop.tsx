@@ -1,44 +1,26 @@
 import { Candle } from "@/app/components/Candle";
-import { PatternWrapper } from "@/app/components/PatternWrapper";
+import { PatternWrapper } from "@/app/components/patterns/PatternWrapper";
 
-export default function TweezerTop({ title }: { title?: string }) {
+export default function TweezerBottom({ title }: { title?: string }) {
   return (
     <PatternWrapper title={title}>
       <Candle
+        color="green"
+        wickTop={8}
+        bodyWidth={10}
+        bodyHeight={44}
+        wickBottom={15}
+        offsetY={11}
+        offsetX={0}
+      />
+      <Candle
         color="red"
+        wickTop={10}
         bodyWidth={10}
-        bodyHeight={30}
+        bodyHeight={22}
+        wickBottom={10}
+        offsetY={-3}
         offsetX={0}
-        offsetY={-10}
-      />
-      <Candle
-        color="red"
-        bodyWidth={10}
-        bodyHeight={30}
-        offsetX={0}
-        offsetY={5}
-      />
-      <Candle
-        color="green"
-        wickTop={35}
-        bodyHeight={14}
-        offsetX={0}
-        offsetY={25}
-        stars={[{ position: "top-left" }, { position: "bottom-right" }]}
-      />
-      <Candle
-        color="green"
-        bodyWidth={10}
-        bodyHeight={40}
-        offsetX={0}
-        offsetY={15}
-      />
-      <Candle
-        color="green"
-        bodyWidth={10}
-        bodyHeight={40}
-        offsetX={0}
-        offsetY={0}
       />
     </PatternWrapper>
   );

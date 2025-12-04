@@ -1,5 +1,5 @@
 import { Candle } from "@/app/components/Candle";
-import { PatternWrapper } from "@/app/components/PatternWrapper";
+import { PatternWrapper } from "@/app/components/patterns/PatternWrapper";
 
 export default function Marubozu({ title }: { title?: string }) {
   return (
