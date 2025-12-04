@@ -40,3 +40,17 @@ export { default as Doji } from "./patterns/neutral/Doji";
 export { default as SpinningTop } from "./patterns/neutral/SpinningTop";
 
 // ThreeCandlePatterns
+export { default as MorningStar } from "./patterns/threeCandlePatterns/MorningStar";
+export { default as MorningDojiStar } from "./patterns/threeCandlePatterns/MorningDojiStar";
+export { default as ThreeWhiteSoldiers } from "./patterns/threeCandlePatterns/ThreeWhiteSoldiers";
+export { default as BullishAbandonedBaby } from "./patterns/threeCandlePatterns/BullishAbandonedBaby";
+export { default as ThreeLineStrikeBullish } from "./patterns/threeCandlePatterns/ThreeLineStrikeBullish";
+export { default as ThreeInsideUp } from "./patterns/threeCandlePatterns/ThreeInsideUp";
+export { default as ThreeOutsideUp } from "./patterns/threeCandlePatterns/ThreeOutsideUp";
+export { default as EveningStar } from "./patterns/threeCandlePatterns/EveningStar";
+export { default as EveningDojiStar } from "./patterns/threeCandlePatterns/EveningDojiStar";
+export { default as BearishAbandonedBaby } from "./patterns/threeCandlePatterns/BearishAbandonedBaby";
+export { default as ThreeBlackCrows } from "./patterns/threeCandlePatterns/ThreeBlackCrows";
+export { default as ThreeLineStrikeBearish } from "./patterns/threeCandlePatterns/ThreeLineStrikeBearish";
+export { default as ThreeInsideDown } from "./patterns/threeCandlePatterns/ThreeInsideDown";
+export { default as ThreeOutsideDown } from "./patterns/threeCandlePatterns/ThreeOutsideDown";

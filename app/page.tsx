@@ -33,6 +33,20 @@ import {
   Doji,
   SpinningTop,
   NeutralGrid,
+  MorningStar,
+  MorningDojiStar,
+  BullishAbandonedBaby,
+  ThreeWhiteSoldiers,
+  ThreeInsideUp,
+  ThreeOutsideUp,
+  EveningStar,
+  EveningDojiStar,
+  BearishAbandonedBaby,
+  ThreeBlackCrows,
+  ThreeInsideDown,
+  ThreeOutsideDown,
+  ThreeLineStrikeBearish,
+  ThreeLineStrikeBullish,
 } from "@/app/components";
 
 import {
@@ -62,10 +76,26 @@ const patterns: Record<string, React.ComponentType<{ title?: string }>> = {
   bearishHarami: BearishHarami,
   darkCloudCover: DarkCloudCover,
   tweezerTop: TweezerTop,
+  // Neutral
   star: Star,
   marubozu: Marubozu,
   doji: Doji,
   spinningTop: SpinningTop,
+  // Three Candle Patterns
+  morningStar: MorningStar,
+  morningDojiStar: MorningDojiStar,
+  bullishAbandonedBaby: BullishAbandonedBaby,
+  threeWhiteSoldiers: ThreeWhiteSoldiers,
+  threeLineStrikeBullish: ThreeLineStrikeBullish,
+  threeInsideUp: ThreeInsideUp,
+  threeOutsideUp: ThreeOutsideUp,
+  eveningStar: EveningStar,
+  eveningDojiStar: EveningDojiStar,
+  bearishAbandonedBaby: BearishAbandonedBaby,
+  threeBlackCrows: ThreeBlackCrows,
+  threeLineStrikeBearish: ThreeLineStrikeBearish,
+  threeInsideDown: ThreeInsideDown,
+  threeOutsideDown: ThreeOutsideDown,
 };
 
 export function DynamicPattern({ title }: { title: string }) {

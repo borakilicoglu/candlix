@@ -177,13 +177,48 @@ export const candlePatterns: PatternCategory[] = [
         desc: "The Morning Star is a three-candle bullish reversal pattern. It consists of a long bearish candle, followed by a small-bodied candle (indicating indecision), and then a long bullish candle. This pattern suggests that selling pressure is exhausted and buyers are taking control.",
       },
       {
+        name: "Morning Doji\nStar",
+        type: "bullish",
+        desc: "The Evening Star is a three-candle bearish reversal pattern. It consists of a long bullish candle, followed by a small-bodied candle (indicating indecision), and then a long bearish candle. This pattern suggests that buying pressure is exhausted and sellers are taking control.",
+      },
+      {
+        name: "Bullish Abandoned\nBaby",
+        type: "bullish",
+        desc: "The Morning Star is a three-candle bullish reversal pattern. It consists of a long bearish candle, followed by a small-bodied candle (indicating indecision), and then a long bullish candle. This pattern suggests that selling pressure is exhausted and buyers are taking control.",
+      },
+      {
+        name: "Three White\nSoldiers",
+        type: "bullish",
+        desc: "The Evening Star is a three-candle bearish reversal pattern. It consists of a long bullish candle, followed by a small-bodied candle (indicating indecision), and then a long bearish candle. This pattern suggests that buying pressure is exhausted and sellers are taking control.",
+      },
+      {
+        name: "Three Line\nStrike Bullish",
+        type: "bullish",
+        desc: "The Morning Star is a three-candle bullish reversal pattern. It consists of a long bearish candle, followed by a small-bodied candle (indicating indecision), and then a long bullish candle. This pattern suggests that selling pressure is exhausted and buyers are taking control.",
+      },
+      {
+        name: "Three Inside\nUp",
+        type: "bullish",
+        desc: "The Evening Star is a three-candle bearish reversal pattern. It consists of a long bullish candle, followed by a small-bodied candle (indicating indecision), and then a long bearish candle. This pattern suggests that buying pressure is exhausted and sellers are taking control.",
+      },
+      {
+        name: "Three Outside\nUp",
+        type: "bullish",
+        desc: "The Morning Star is a three-candle bullish reversal pattern. It consists of a long bearish candle, followed by a small-bodied candle (indicating indecision), and then a long bullish candle. This pattern suggests that selling pressure is exhausted and buyers are taking control.",
+      },
+      {
         name: "Evening\nStar",
+        type: "bearish",
+        desc: "The Morning Star is a three-candle bullish reversal pattern. It consists of a long bearish candle, followed by a small-bodied candle (indicating indecision), and then a long bullish candle. This pattern suggests that selling pressure is exhausted and buyers are taking control.",
+      },
+      {
+        name: "Evening Doji\nStar",
         type: "bearish",
         desc: "The Evening Star is a three-candle bearish reversal pattern. It consists of a long bullish candle, followed by a small-bodied candle (indicating indecision), and then a long bearish candle. This pattern suggests that buying pressure is exhausted and sellers are taking control.",
       },
       {
         name: "Morning\nStar",
-        type: "bullish",
+        type: "bearish",
         desc: "The Morning Star is a three-candle bullish reversal pattern. It consists of a long bearish candle, followed by a small-bodied candle (indicating indecision), and then a long bullish candle. This pattern suggests that selling pressure is exhausted and buyers are taking control.",
       },
       {
@@ -193,7 +228,7 @@ export const candlePatterns: PatternCategory[] = [
       },
       {
         name: "Morning\nStar",
-        type: "bullish",
+        type: "bearish",
         desc: "The Morning Star is a three-candle bullish reversal pattern. It consists of a long bearish candle, followed by a small-bodied candle (indicating indecision), and then a long bullish candle. This pattern suggests that selling pressure is exhausted and buyers are taking control.",
       },
       {
@@ -203,42 +238,7 @@ export const candlePatterns: PatternCategory[] = [
       },
       {
         name: "Morning\nStar",
-        type: "bullish",
-        desc: "The Morning Star is a three-candle bullish reversal pattern. It consists of a long bearish candle, followed by a small-bodied candle (indicating indecision), and then a long bullish candle. This pattern suggests that selling pressure is exhausted and buyers are taking control.",
-      },
-      {
-        name: "Morning\nStar",
-        type: "bullish",
-        desc: "The Morning Star is a three-candle bullish reversal pattern. It consists of a long bearish candle, followed by a small-bodied candle (indicating indecision), and then a long bullish candle. This pattern suggests that selling pressure is exhausted and buyers are taking control.",
-      },
-      {
-        name: "Evening\nStar",
         type: "bearish",
-        desc: "The Evening Star is a three-candle bearish reversal pattern. It consists of a long bullish candle, followed by a small-bodied candle (indicating indecision), and then a long bearish candle. This pattern suggests that buying pressure is exhausted and sellers are taking control.",
-      },
-      {
-        name: "Morning\nStar",
-        type: "bullish",
-        desc: "The Morning Star is a three-candle bullish reversal pattern. It consists of a long bearish candle, followed by a small-bodied candle (indicating indecision), and then a long bullish candle. This pattern suggests that selling pressure is exhausted and buyers are taking control.",
-      },
-      {
-        name: "Evening\nStar",
-        type: "bearish",
-        desc: "The Evening Star is a three-candle bearish reversal pattern. It consists of a long bullish candle, followed by a small-bodied candle (indicating indecision), and then a long bearish candle. This pattern suggests that buying pressure is exhausted and sellers are taking control.",
-      },
-      {
-        name: "Morning\nStar",
-        type: "bullish",
-        desc: "The Morning Star is a three-candle bullish reversal pattern. It consists of a long bearish candle, followed by a small-bodied candle (indicating indecision), and then a long bullish candle. This pattern suggests that selling pressure is exhausted and buyers are taking control.",
-      },
-      {
-        name: "Evening\nStar",
-        type: "bearish",
-        desc: "The Evening Star is a three-candle bearish reversal pattern. It consists of a long bullish candle, followed by a small-bodied candle (indicating indecision), and then a long bearish candle. This pattern suggests that buying pressure is exhausted and sellers are taking control.",
-      },
-      {
-        name: "Morning\nStar",
-        type: "bullish",
         desc: "The Morning Star is a three-candle bullish reversal pattern. It consists of a long bearish candle, followed by a small-bodied candle (indicating indecision), and then a long bullish candle. This pattern suggests that selling pressure is exhausted and buyers are taking control.",
       },
     ],
