@@ -146,7 +146,7 @@ export default function Home() {
               const widths =
                 groupIndex === 0
                   ? ["w-[45%]", "w-[55%]"]
-                  : ["w-[30%]", "w-[70%]"];
+                  : ["w-[25%]", "w-[75%]"];
               return (
                 <div key={groupIndex} className="flex h-1/2 gap-4">
                   {group.map((block, index) => (
