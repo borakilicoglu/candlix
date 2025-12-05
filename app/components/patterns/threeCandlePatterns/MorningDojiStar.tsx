@@ -6,32 +6,30 @@ export default function MorningDojiStar({ title }: { title?: string }) {
     <PatternWrapper title={title}>
       <Candle
         color="red"
-        wickTop={6}
-        wickBottom={6}
+        wickTop={12}
+        wickBottom={4}
         bodyWidth={10}
-        bodyHeight={35}
+        bodyHeight={42}
         offsetX={0}
-        offsetY={-10}
-        stars={[{ position: "top-left" }]}
+        offsetY={10}
       />
       <Candle
         color="red"
-        wickTop={6}
+        wickTop={4}
         wickBottom={6}
         bodyWidth={10}
-        bodyHeight={16}
+        bodyHeight={2}
         offsetX={0}
-        offsetY={30}
+        offsetY={36}
       />
       <Candle
         color="green"
         wickTop={6}
-        wickBottom={6}
+        wickBottom={3}
         bodyWidth={10}
-        bodyHeight={35}
+        bodyHeight={25}
         offsetX={0}
-        offsetY={10}
-        stars={[{ position: "bottom-right" }]}
+        offsetY={22}
       />
     </PatternWrapper>
   );

@@ -5,40 +5,33 @@ export default function BullishAbandonedBaby({ title }: { title?: string }) {
   return (
     <PatternWrapper title={title}>
       <Candle
-        color="green"
-        wickTop={15}
-        bodyWidth={2}
-        bodyHeight={5}
-        wickBottom={20}
-        offsetX={0}
-        offsetY={15}
-      />
-      <Candle
-        color="green"
-        wickTop={8}
+        color="red"
+        wickTop={6}
+        wickBottom={6}
+        bodyWidth={10}
         bodyHeight={35}
-        wickBottom={8}
         offsetX={0}
-        offsetY={-5}
+        offsetY={-10}
         stars={[{ position: "top-left" }]}
       />
       <Candle
         color="red"
-        wickTop={8}
-        bodyHeight={35}
-        wickBottom={8}
+        wickTop={6}
+        wickBottom={6}
+        bodyWidth={10}
+        bodyHeight={16}
         offsetX={0}
-        offsetY={-10}
-        stars={[{ position: "bottom-right" }]}
+        offsetY={30}
       />
       <Candle
-        color="red"
-        wickTop={15}
-        bodyWidth={2}
-        bodyHeight={5}
-        wickBottom={20}
+        color="green"
+        wickTop={6}
+        wickBottom={6}
+        bodyWidth={10}
+        bodyHeight={35}
         offsetX={0}
-        offsetY={15}
+        offsetY={10}
+        stars={[{ position: "bottom-right" }]}
       />
     </PatternWrapper>
   );
