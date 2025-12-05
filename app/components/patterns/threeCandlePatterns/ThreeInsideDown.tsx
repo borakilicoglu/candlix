@@ -6,39 +6,27 @@ export default function ThreeInsideDown({ title }: { title?: string }) {
     <PatternWrapper title={title}>
       <Candle
         color="green"
-        wickTop={15}
-        bodyWidth={2}
-        bodyHeight={5}
-        wickBottom={20}
+        wickTop={10}
+        bodyHeight={55}
+        wickBottom={10}
         offsetX={0}
-        offsetY={15}
-      />
-      <Candle
-        color="green"
-        wickTop={8}
-        bodyHeight={35}
-        wickBottom={8}
-        offsetX={0}
-        offsetY={-5}
-        stars={[{ position: "top-left" }]}
+        offsetY={0}
       />
       <Candle
         color="red"
-        wickTop={8}
-        bodyHeight={35}
-        wickBottom={8}
+        wickTop={10}
+        bodyHeight={30}
+        wickBottom={10}
         offsetX={0}
-        offsetY={-10}
-        stars={[{ position: "bottom-right" }]}
+        offsetY={0}
       />
       <Candle
         color="red"
-        wickTop={15}
-        bodyWidth={2}
-        bodyHeight={5}
-        wickBottom={20}
+        wickTop={10}
+        bodyHeight={40}
+        wickBottom={10}
         offsetX={0}
-        offsetY={15}
+        offsetY={20}
       />
     </PatternWrapper>
   );
