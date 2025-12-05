@@ -5,40 +5,42 @@ export default function ThreeLineStrikeBullish({ title }: { title?: string }) {
   return (
     <PatternWrapper title={title}>
       <Candle
-        color="green"
-        wickTop={15}
-        bodyWidth={2}
-        bodyHeight={5}
-        wickBottom={20}
-        offsetX={0}
-        offsetY={15}
-      />
-      <Candle
-        color="green"
+        color="red"
         wickTop={8}
-        bodyHeight={35}
         wickBottom={8}
+        bodyWidth={10}
+        bodyHeight={22}
         offsetX={0}
-        offsetY={-5}
+        offsetY={-16}
         stars={[{ position: "top-left" }]}
       />
       <Candle
         color="red"
         wickTop={8}
-        bodyHeight={35}
         wickBottom={8}
+        bodyWidth={10}
+        bodyHeight={22}
         offsetX={0}
-        offsetY={-10}
-        stars={[{ position: "bottom-right" }]}
+        offsetY={0}
       />
       <Candle
         color="red"
-        wickTop={15}
-        bodyWidth={2}
-        bodyHeight={5}
-        wickBottom={20}
+        wickTop={8}
+        wickBottom={8}
+        bodyWidth={10}
+        bodyHeight={22}
         offsetX={0}
-        offsetY={15}
+        offsetY={16}
+        stars={[{ position: "bottom-right" }]}
+      />
+      <Candle
+        color="green"
+        wickTop={10}
+        wickBottom={10}
+        bodyWidth={10}
+        bodyHeight={55}
+        offsetX={0}
+        offsetY={0}
       />
     </PatternWrapper>
   );
